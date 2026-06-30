@@ -6,6 +6,8 @@ const { DashboardPage } = require('./Dashboard');
 
 const { PIMPage } = require('./PIMPage');
 
+const { perfor } = require('./perfor');
+
 test('Add Employee Test', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
